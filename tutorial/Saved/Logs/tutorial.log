@@ -934,3 +934,502 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.24-21.19.23:529][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.02.24-21.19.23:544][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.02.24-21.19.23:805][336]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMapA13A15104EE239D3F7E7F2816D2B6065.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
+[2019.02.24-21.20.29:528][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.20.45:489][509]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Idle.Idle
+[2019.02.24-21.20.45:508][509]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.20.45:541][509]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.24-21.20.45:930][509]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.24-21.20.53:967][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.20.54:150][982]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint
+[2019.02.24-21.20.54:179][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.20.54:478][982]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.24-21.20.54:823][982]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.24-21.21.09:741][763]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Jumping.Jumping
+[2019.02.24-21.24.42:538][345]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching.Punching
+[2019.02.24-21.29.20:694][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.29.20:804][ 20]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintB01BC7964D4A1EB524072FA0C6DCBA9A.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-21.29.21:203][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.29.21:277][ 43]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-21.30.02:383][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.041
+[2019.02.24-21.30.02:386][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewGameMode] ([1] browsable assets)...
+[2019.02.24-21.30.02:386][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewGameMode]
+[2019.02.24-21.30.02:419][283]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewGameMode_Auto15935620A49DB31A16FD1D2AB4632740A.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Blueprints/NewGameMode_Auto1.uasset'
+[2019.02.24-21.30.02:420][283]LogFileHelpers: Auto-saving content packages took 0.035
+[2019.02.24-21.34.13:966][477]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.34.18:342][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.34.18:442][727]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.34.18:469][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.34.18:469][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.34.18:469][727]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:34:18 AM)
+[2019.02.24-21.34.18:469][727]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.34.18:485][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015394s)
+[2019.02.24-21.34.18:486][727]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.34.18:486][727]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2019.02.24-21.34.18:486][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.016384s)
+[2019.02.24-21.34.18:526][727]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.34.18:614][727]LogInit: FAudioDevice initialized.
+[2019.02.24-21.34.18:645][727]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.34.18:649][727]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.34.18
+[2019.02.24-21.34.18:649][727]LogWorld: Bringing up level for play took: 0.002676
+[2019.02.24-21.34.18:663][727]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.649
+[2019.02.24-21.34.18:664][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.34.45:913][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.34.45:913][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.34.45:950][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.34.45:950][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.34.45:992][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.34.46:029][355]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.02.24-21.34.47:386][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.34.54:320][729]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.36.36:334][188]LogEditorTransaction: Undo Delete current selection
+[2019.02.24-21.36.36:633][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.36:647][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.36:650][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.36:779][190]LogEditorTransaction: Undo Change Object Pin Value
+[2019.02.24-21.36.37:079][190]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.37:082][190]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.37:084][190]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.36.49:698][814]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.36.49:786][814]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint014286E149A3A82DF46BAA915525C19B.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-21.36.51:611][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.36.51:702][919]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.36.55:540][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.36.55:606][130]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.36.55:632][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.36.55:632][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.36.55:632][130]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:36:55 AM)
+[2019.02.24-21.36.55:632][130]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.36.55:647][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014815s)
+[2019.02.24-21.36.55:648][130]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.36.55:648][130]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2019.02.24-21.36.55:648][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015743s)
+[2019.02.24-21.36.55:687][130]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.36.55:774][130]LogInit: FAudioDevice initialized.
+[2019.02.24-21.36.55:811][130]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.36.55:814][130]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.36.55
+[2019.02.24-21.36.55:814][130]LogWorld: Bringing up level for play took: 0.002445
+[2019.02.24-21.36.55:828][130]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.186
+[2019.02.24-21.36.55:828][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.03:100][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.03:100][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.37.03:137][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.37.03:137][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.03:179][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.37.03:227][560]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.02.24-21.37.04:235][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.37.10:762][836]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.37.35:472][142]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.37.38:535][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.37.38:602][312]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.37.38:628][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.38:628][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.37.38:629][312]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:37:38 AM)
+[2019.02.24-21.37.38:629][312]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.37.38:643][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014668s)
+[2019.02.24-21.37.38:643][312]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.37.38:644][312]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2019.02.24-21.37.38:644][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015430s)
+[2019.02.24-21.37.38:684][312]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.37.38:765][312]LogInit: FAudioDevice initialized.
+[2019.02.24-21.37.38:800][312]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.37.38:803][312]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.37.38
+[2019.02.24-21.37.38:803][312]LogWorld: Bringing up level for play took: 0.002102
+[2019.02.24-21.37.38:816][312]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.802
+[2019.02.24-21.37.38:816][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.43:316][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.43:317][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.37.43:352][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.37.43:352][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.37.43:396][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.37.43:445][582]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.02.24-21.37.46:271][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.37.51:481][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.38.17:403][301]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Walking_Backwards.Walking_Backwards
+[2019.02.24-21.39.30:091][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.39.30:258][487]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.39.30:283][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.39.30:283][487]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.24-21.39.30:289][487]LogPlayLevel: [PlayLevel] Compiling Obama_Blueprint before play...
+[2019.02.24-21.39.30:494][487]LogPlayLevel: PlayLevel: Blueprint regeneration took 211 ms (1 blueprints)
+[2019.02.24-21.39.30:494][487]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:39:30 AM)
+[2019.02.24-21.39.30:494][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.39.30:508][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014239s)
+[2019.02.24-21.39.30:509][487]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.39.30:509][487]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2019.02.24-21.39.30:509][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015336s)
+[2019.02.24-21.39.30:551][487]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.39.30:634][487]LogInit: FAudioDevice initialized.
+[2019.02.24-21.39.30:666][487]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.39.30:669][487]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.39.30
+[2019.02.24-21.39.30:669][487]LogWorld: Bringing up level for play took: 0.002279
+[2019.02.24-21.39.30:683][487]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.669
+[2019.02.24-21.39.30:683][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.39.42:276][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.39.42:277][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.39.42:314][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.39.42:314][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.39.42:356][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.39.42:403][174]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.02.24-21.39.44:517][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.39.51:288][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.40.00:285][965]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.40.00:316][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.00:316][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.40.00:316][965]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:40:00 AM)
+[2019.02.24-21.40.00:316][965]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.40.00:330][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013551s)
+[2019.02.24-21.40.00:331][965]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.40.00:331][965]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2019.02.24-21.40.00:331][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014234s)
+[2019.02.24-21.40.00:371][965]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.40.00:455][965]LogInit: FAudioDevice initialized.
+[2019.02.24-21.40.00:491][965]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.40.00:494][965]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.40.00
+[2019.02.24-21.40.00:494][965]LogWorld: Bringing up level for play took: 0.002555
+[2019.02.24-21.40.00:508][965]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.494
+[2019.02.24-21.40.00:509][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.04:584][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.40.04:734][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.04:735][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.40.04:772][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.40.04:773][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.04:818][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.40.04:838][169]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.02.24-21.40.06:206][237]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Walking_1_.Walking_1_
+[2019.02.24-21.40.06:225][237]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.40.06:258][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.24-21.40.06:713][237]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.24-21.40.23:215][ 69]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Walking.Walking
+[2019.02.24-21.40.23:233][ 69]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.40.23:264][ 69]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.24-21.40.23:713][ 69]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.24-21.40.46:991][353]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.40.47:020][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.47:020][353]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.24-21.40.47:030][353]LogPlayLevel: [PlayLevel] Compiling ObamaAnimationBlueprint before play...
+[2019.02.24-21.40.47:230][353]LogPlayLevel: PlayLevel: Blueprint regeneration took 209 ms (1 blueprints)
+[2019.02.24-21.40.47:230][353]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:40:47 AM)
+[2019.02.24-21.40.47:230][353]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.40.47:244][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013943s)
+[2019.02.24-21.40.47:245][353]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.40.47:245][353]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2019.02.24-21.40.47:245][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014693s)
+[2019.02.24-21.40.47:285][353]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.40.47:368][353]LogInit: FAudioDevice initialized.
+[2019.02.24-21.40.47:408][353]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.40.47:412][353]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.40.47
+[2019.02.24-21.40.47:412][353]LogWorld: Bringing up level for play took: 0.002684
+[2019.02.24-21.40.47:426][353]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.411
+[2019.02.24-21.40.47:426][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.40.55:457][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.41.15:247][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.41.25:478][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.25:479][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.41.25:514][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.41.25:514][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.25:559][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.41.25:606][163]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.02.24-21.41.27:820][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.41.27:954][303]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.41.27:981][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.27:981][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.41.27:981][303]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:41:27 AM)
+[2019.02.24-21.41.27:982][303]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.41.27:996][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014647s)
+[2019.02.24-21.41.27:997][303]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.41.27:997][303]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.02.24-21.41.27:997][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015484s)
+[2019.02.24-21.41.28:037][303]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.41.28:117][303]LogInit: FAudioDevice initialized.
+[2019.02.24-21.41.28:151][303]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.41.28:154][303]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.41.28
+[2019.02.24-21.41.28:154][303]LogWorld: Bringing up level for play took: 0.002277
+[2019.02.24-21.41.28:169][303]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.155
+[2019.02.24-21.41.28:169][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.55:439][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.55:439][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.41.55:476][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.41.55:477][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.41.55:523][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.41.55:572][934]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.02.24-21.42.00:040][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.42.05:890][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.43.05:144][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.43.05:234][480]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint24BA12CC4AA0AF07E6355086D8F12E5A.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-21.43.06:658][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.45.21:427][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.45.21:506][784]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint5A17D9C24EA87085601C73B12207E311.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-21.45.22:294][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.45.22:415][828]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.45.29:362][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.45.29:445][189]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.45.29:473][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.45.29:473][189]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.24-21.45.29:486][189]LogPlayLevel: [PlayLevel] Compiling ObamaAnimationBlueprint before play...
+[2019.02.24-21.45.29:684][189]LogPlayLevel: PlayLevel: Blueprint regeneration took 210 ms (1 blueprints)
+[2019.02.24-21.45.29:684][189]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:45:29 AM)
+[2019.02.24-21.45.29:685][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.45.29:699][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014487s)
+[2019.02.24-21.45.29:700][189]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.45.29:700][189]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2019.02.24-21.45.29:700][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015604s)
+[2019.02.24-21.45.29:739][189]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.45.29:826][189]LogInit: FAudioDevice initialized.
+[2019.02.24-21.45.29:860][189]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.45.29:864][189]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.45.29
+[2019.02.24-21.45.29:864][189]LogWorld: Bringing up level for play took: 0.002374
+[2019.02.24-21.45.29:878][189]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.137
+[2019.02.24-21.45.29:878][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.45.39:623][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.45.39:623][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.45.39:662][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.45.39:662][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.45.39:705][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.45.39:755][763]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.02.24-21.46.17:765][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.48.16:167][245]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.48.17:001][269]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.48.17:078][269]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint717D05DA45A8FAFD0E5861AF038694E0.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-21.48.18:042][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.48.19:958][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.48.20:108][443]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-21.48.20:136][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.48.20:136][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-21.48.20:136][443]PIE: New page: PIE session: NewMap (Feb 24, 2019, 11:48:20 AM)
+[2019.02.24-21.48.20:136][443]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-21.48.20:151][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014437s)
+[2019.02.24-21.48.20:152][443]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-21.48.20:152][443]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.02.24-21.48.20:152][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015280s)
+[2019.02.24-21.48.20:195][443]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-21.48.20:276][443]LogInit: FAudioDevice initialized.
+[2019.02.24-21.48.20:308][443]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-21.48.20:311][443]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-16.48.20
+[2019.02.24-21.48.20:312][443]LogWorld: Bringing up level for play took: 0.002569
+[2019.02.24-21.48.20:325][443]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.311
+[2019.02.24-21.48.20:325][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.48.30:114][ 25]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.48.30:114][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.48.30:154][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-21.48.30:154][ 25]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-21.48.30:199][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-21.48.30:248][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2019.02.24-21.48.41:312][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.48.47:245][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.49.09:971][ 85]LogEditorTransaction: Undo Create Pin Link
+[2019.02.24-21.49.10:177][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.10:182][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.12:324][196]LogEditorTransaction: Undo Change Bool Pin Value
+[2019.02.24-21.49.12:536][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.12:540][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.14:039][274]LogEditorTransaction: Undo Paste clipboard contents
+[2019.02.24-21.49.14:248][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.14:253][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.49.16:430][387]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-21.49.17:328][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.49.17:403][415]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintCBDFFEC948C48AE08D84B6A810F1438D.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-21.49.37:793][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.53.00:485][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.53.00:576][491]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint49484D254AEF1B99F203999B3E445B49.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-21.53.01:116][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.53.01:232][522]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-21.53.01:268][522]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Jumping to Idle  will never be taken, please connect something to  Can Enter Transition
+[2019.02.24-21.53.01:475][522]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [2670.77] Compile of ObamaAnimationBlueprint successful, but with 1 Warning(s) [in 242 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
+[2019.02.24-21.54.55:559][970]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-21.54.55:641][970]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintC849C62845FC1854116774BFE8A1A16E.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-21.54.56:289][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.54.56:367][  6]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-21.56.21:017][489]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.042
+[2019.02.24-21.56.21:019][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
+[2019.02.24-21.56.21:037][489]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
+[2019.02.24-21.56.21:037][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
+[2019.02.24-21.56.21:090][489]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto2B5CAED6E4EFD66AB603DB0A5FC28E488.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto2.uasset'
+[2019.02.24-21.56.21:091][489]LogFileHelpers: Auto-saving content packages took 0.073
+[2019.02.24-21.56.21:286][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-21.56.52:881][252]LogEditorTransaction: Undo Create Pin Link
+[2019.02.24-21.56.53:054][252]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.53:058][252]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:034][357]LogEditorTransaction: Undo Create Pin Link
+[2019.02.24-21.56.55:212][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:215][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:416][368]LogEditorTransaction: Undo Delete current selection
+[2019.02.24-21.56.55:615][368]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:620][368]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:716][370]LogEditorTransaction: Undo Move Node
+[2019.02.24-21.56.55:928][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.56.55:933][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.58.49:268][755]LogEditorTransaction: Undo Create Pin Link
+[2019.02.24-21.58.49:452][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.58.49:455][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.58.50:006][781]LogEditorTransaction: Undo Delete current selection
+[2019.02.24-21.58.50:217][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-21.58.50:222][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.24-22.01.34:696][606]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.01.34:736][606]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Could not find a variable named "CharacterMovement" in 'ObamaAnimationBlueprint_C'.
+Make sure 'ObamaAnimationBlueprint_C' has been compiled for  Get CharacterMovement
+[2019.02.24-22.01.34:736][606]LogBlueprint: Error: [Compiler ObamaAnimationBlueprint] The property associated with  Character Movement  could not be found in '/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C'
+[2019.02.24-22.01.34:941][606]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [3184.23] Compile of ObamaAnimationBlueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 244 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
+[2019.02.24-22.01.40:148][865]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.01.40:169][865]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Jumping to Idle  will never be taken, please connect something to  Can Enter Transition
+[2019.02.24-22.01.40:371][865]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [3189.66] Compile of ObamaAnimationBlueprint successful, but with 1 Warning(s) [in 222 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
+[2019.02.24-22.04.04:627][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.04.04:735][415]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint5E67E82B4108800954670E9DE0527AF1.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-22.04.05:646][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.04.06:547][502]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.06.29:613][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.037
+[2019.02.24-22.06.29:615][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
+[2019.02.24-22.06.29:627][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
+[2019.02.24-22.06.29:627][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
+[2019.02.24-22.06.29:682][931]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto36645F55943FC7C2A993EBD94A10A489D.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto3.uasset'
+[2019.02.24-22.06.29:690][931]LogFileHelpers: Auto-saving content packages took 0.075
+[2019.02.24-22.06.30:590][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.08.58:159][773]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.08.58:236][773]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintF38CB0024ED2D709E443BFAFFA891FA3.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-22.08.59:125][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.08.59:230][822]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-22.08.59:258][822]LogBlueprint: Error: [Compiler Obama_Blueprint] This blueprint (self) is not a ObamaAnimationBlueprint_C, therefore ' Target ' must have a connection.
+[2019.02.24-22.08.59:259][822]LogBlueprint: Error: [Compiler Obama_Blueprint] Variable node  Set Obama_Jumping  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.02.24-22.08.59:453][822]LogBlueprint: Warning: [Compiler Obama_Blueprint] [3628.74] Compile of Obama_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 223 ms] (/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint)
+[2019.02.24-22.16.27:369][ 63]LogSlate: Window 'Delete Variable' being destroyed
+[2019.02.24-22.16.28:250][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.17.17:164][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.052
+[2019.02.24-22.17.17:167][444]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
+[2019.02.24-22.17.17:200][444]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
+[2019.02.24-22.17.17:200][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
+[2019.02.24-22.17.17:262][444]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto49D0643924F0E6C3223062CAF03428E44.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto4.uasset'
+[2019.02.24-22.17.17:263][444]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/ObamaAnimationBlueprint] ([1] browsable assets)...
+[2019.02.24-22.17.17:293][444]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint]
+[2019.02.24-22.17.17:293][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/ObamaAnimationBlueprint]
+[2019.02.24-22.17.17:368][444]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint_Auto4F4799FF247E9D21B54790ABC9A0BB7E7.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/ObamaAnimationBlueprint_Auto4.uasset'
+[2019.02.24-22.17.17:371][444]LogFileHelpers: Auto-saving content packages took 0.205
+[2019.02.24-22.18.15:677][926]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.18.15:775][926]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint35465F524412334FA5620AB8BA22B485.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-22.18.16:326][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.18.16:446][956]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.18.16:490][956]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Could not find a variable named "SkeletalMesh" in 'ObamaAnimationBlueprint_C'.
+Make sure 'ObamaAnimationBlueprint_C' has been compiled for  Get SkeletalMesh
+[2019.02.24-22.18.16:493][956]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Could not find a variable named "SkeletalMesh" in 'ObamaAnimationBlueprint_C'.
+Make sure 'ObamaAnimationBlueprint_C' has been compiled for  Get SkeletalMesh
+[2019.02.24-22.18.16:493][956]LogBlueprint: Error: [Compiler ObamaAnimationBlueprint] The property associated with  Skeletal Mesh  could not be found in '/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C'
+[2019.02.24-22.18.16:688][956]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [4185.98] Compile of ObamaAnimationBlueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 241 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
+[2019.02.24-22.19.18:968][726]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.19.19:065][726]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintD56773094654D77AF46E3DA302203F9C.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-22.19.19:752][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.19.19:876][764]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.19.19:901][764]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] 'Obama Animation Blueprint' does not inherit from 'Pawn' ( Cast To ObamaAnimationBlueprint  would always fail).
+[2019.02.24-22.19.19:905][764]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] 'Obama Animation Blueprint' does not inherit from 'Pawn' ( Cast To ObamaAnimationBlueprint  would always fail).
+[2019.02.24-22.19.19:909][764]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.19:909][764]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.19:909][764]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.19:909][764]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:113][764]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [4249.40] Compile of ObamaAnimationBlueprint successful, but with 2 Warning(s) [in 236 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
+[2019.02.24-22.19.20:161][765]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:161][765]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:177][766]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:177][766]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:260][767]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:261][767]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:297][768]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:297][768]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:312][769]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:312][769]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:330][770]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.19.20:330][770]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00D5
+[2019.02.24-22.19.20:350][771]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ObamaAnimationBlueprint_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ObamaAnimationBlueprint_C_10
+	Function /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint_C:ExecuteUbergraph_ObamaAnimationBlueprint:00A7
+[2019.02.24-22.27.17:738][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.051
+[2019.02.24-22.27.17:741][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
+[2019.02.24-22.27.17:775][852]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
+[2019.02.24-22.27.17:775][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
+[2019.02.24-22.27.17:852][852]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto5C0477C6E43F1FFF2BDACFABCA07778E6.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto5.uasset'
+[2019.02.24-22.27.17:853][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/ObamaAnimationBlueprint] ([1] browsable assets)...
+[2019.02.24-22.27.17:889][852]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint]
+[2019.02.24-22.27.17:889][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/ObamaAnimationBlueprint]
+[2019.02.24-22.27.17:980][852]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint_Auto5B1D9B61641EBC5716685D7915F337DA6.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/ObamaAnimationBlueprint_Auto5.uasset'
+[2019.02.24-22.27.17:981][852]LogFileHelpers: Auto-saving content packages took 0.241
+[2019.02.24-22.31.32:544][390]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.31.32:632][390]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint488211B24439946CCEC073B57319D3A7.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
+[2019.02.24-22.31.33:205][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.31.33:285][422]BlueprintLog: New page: Compile ObamaAnimationBlueprint
+[2019.02.24-22.33.39:564][309]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-22.39.04:047][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.043
+[2019.02.24-22.39.04:049][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
+[2019.02.24-22.39.04:062][608]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
+[2019.02.24-22.39.04:062][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
+[2019.02.24-22.39.04:125][608]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto64255A11B4165760932850487B0A6A530.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto6.uasset'
+[2019.02.24-22.39.04:127][608]LogFileHelpers: Auto-saving content packages took 0.079
+[2019.02.24-22.39.51:026][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.42.08:590][829]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.42.08:674][829]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint619058D74CDA2B11AF8B0A8BBC4436A3.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-22.42.09:540][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.42.09:651][875]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-22.42.09:686][875]LogBlueprint: Error: [Compiler Obama_Blueprint] This blueprint (self) is not a GameplayTaskOwnerInterface, therefore ' Task Owner ' must have a connection.
+[2019.02.24-22.42.09:886][875]LogBlueprint: Warning: [Compiler Obama_Blueprint] [5619.18] Compile of Obama_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms] (/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint)
+[2019.02.24-22.43.01:159][438]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.43.01:238][438]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint050946124FF9FE1FE11A118F7C2398E6.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
+[2019.02.24-22.43.01:875][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.43.01:993][475]BlueprintLog: New page: Compile Obama_Blueprint
+[2019.02.24-22.43.06:077][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.43.06:160][684]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.24-22.43.06:190][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-22.43.06:190][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.24-22.43.06:190][684]PIE: New page: PIE session: NewMap (Feb 24, 2019, 12:43:06 PM)
+[2019.02.24-22.43.06:190][684]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.24-22.43.06:215][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024817s)
+[2019.02.24-22.43.06:216][684]LogAIModule: Creating AISystem for world NewMap
+[2019.02.24-22.43.06:217][684]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2019.02.24-22.43.06:217][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.026553s)
+[2019.02.24-22.43.06:261][684]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.24-22.43.06:347][684]LogInit: FAudioDevice initialized.
+[2019.02.24-22.43.06:381][684]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.24-22.43.06:386][684]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-17.43.06
+[2019.02.24-22.43.06:387][684]LogWorld: Bringing up level for play took: 0.004356
+[2019.02.24-22.43.06:402][684]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.388
+[2019.02.24-22.43.06:402][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-22.43.52:744][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-22.43.52:745][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-22.43.52:782][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.24-22.43.52:782][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.24-22.43.52:828][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.24-22.43.52:890][455]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2019.02.24-22.43.53:970][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.24-22.43.54:167][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.43.54:186][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.24-22.43.54:457][525]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMap6E76AAA24ECF923EFA507391CF18BCD3.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
+[2019.02.24-22.43.56:198][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.43.59:332][812]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.21/Engine/Content: 'C:/Program Files/Epic Games/UE_4.21/Engine/Content' is outside repository
+[2019.02.24-22.43.59:464][812]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.24-22.44.03:270][812]LogSlate: Window 'Submit Files' being destroyed
