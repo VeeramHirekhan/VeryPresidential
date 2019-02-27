@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/19 17:45:29
+﻿Log file open, 02/26/19 10:38:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: tutorial
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.220704
+LogStats: Stats thread started at 0.887887
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.078s to configure plugins.
+LogStreaming: Display: Took  0.399s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,7 +118,7 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 960
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -149,929 +149,600 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:532][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:535][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.24-22.45.29:535][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.24-22.45.29:536][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.24-22.45.29:536][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-22.45.29:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.24-22.45.29:548][  0]LogHAL: Display: Platform has ~ 8 GB [8449904640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.24-22.45.29:548][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.24-22.45.29:548][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.24-22.45.29:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.24-22.45.29:549][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.24-22.45.29:549][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
-[2019.02.24-22.45.29:550][  0]LogInit: Computer: DESKTOP-QIBLB74
-[2019.02.24-22.45.29:550][  0]LogInit: User: NewOwner
-[2019.02.24-22.45.29:550][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.24-22.45.29:550][  0]LogInit: High frequency timer resolution =2.437496 MHz
-[2019.02.24-22.45.29:550][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.02.24-22.45.29:550][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.24-22.45.29:550][  0]LogMemory: Process Physical Memory: 102.21 MB used, 102.21 MB peak
-[2019.02.24-22.45.29:550][  0]LogMemory: Process Virtual Memory: 84.57 MB used, 84.57 MB peak
-[2019.02.24-22.45.29:550][  0]LogMemory: Physical Memory: 4477.07 MB used,  3581.39 MB free, 8058.46 MB total
-[2019.02.24-22.45.29:550][  0]LogMemory: Virtual Memory: 4628.16 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.02.24-22.45.29:569][  0]LogInit: Using OS detected language (en-US).
-[2019.02.24-22.45.29:569][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.24-22.45.29:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.24-22.45.29:951][  0]LogStreaming: Display: Took  0.382s to InitEngineTextLocalization.
-[2019.02.24-22.45.29:951][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.24-22.45.29:981][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.24-22.45.29:981][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.24-22.45.30:202][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-22.45.30:202][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.24-22.45.30:267][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.02.24-22.45.30:267][  0]LogD3D11RHI:       4018/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.24-22.45.30:278][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.02.24-22.45.30:278][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.24-22.45.30:279][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.24-22.45.30:280][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.24-22.45.30:280][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.24-22.45.30:310][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.24-22.45.30:310][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2019.02.24-22.45.30:310][  0]LogWindows: EnumDisplayDevices:
-[2019.02.24-22.45.30:310][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.02.24-22.45.30:310][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.24-22.45.30:311][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.24-22.45.30:311][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.02.24-22.45.30:311][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.02.24-22.45.30:311][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.02.24-22.45.30:311][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
-[2019.02.24-22.45.30:311][  0]LogD3D11RHI:      Driver Date: 11-29-2018
-[2019.02.24-22.45.30:311][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.02.24-22.45.30:353][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.24-22.45.30:372][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.24-22.45.30:654][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.24-22.45.30:667][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.24-22.45.30:680][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.24-22.45.30:692][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.24-22.45.30:705][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.24-22.45.30:718][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.24-22.45.30:731][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.24-22.45.30:743][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.24-22.45.30:749][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.24-22.45.30:819][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.24-22.45.30:880][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-22.45.30:880][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.24-22.45.30:905][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-22.45.30:905][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.24-22.45.30:917][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.24-22.45.30:930][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.24-22.45.30:941][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.24-22.45.30:953][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.24-22.45.30:997][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.24-22.45.30:997][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.24-22.45.30:997][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.24-22.45.31:053][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Intermediate/Shaders/WorkingDirectory/940/).
-[2019.02.24-22.45.31:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/New Owner/AppData/Local/Temp/UnrealShaderWorkingDir/FDF27294416678651E56B8A7182D11FF/'.
-[2019.02.24-22.45.31:055][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.24-22.45.31:055][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.24-22.45.31:055][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.24-22.45.31:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/New Owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/New Owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.24-22.45.31:636][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.24-22.45.31:649][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.24-22.45.31:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.24-22.45.31:649][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.24-22.45.31:663][  0]LogDerivedDataCache: Using Local data cache path C:/Users/New Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.24-22.45.31:663][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.24-22.45.31:663][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.24-22.45.31:688][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.24-22.45.31:689][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.24-22.45.31:690][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.24-22.45.31:777][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
-[2019.02.24-22.45.32:083][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.24-22.45.32:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.24-22.45.32:238][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.24-22.45.32:238][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.24-22.45.32:238][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.24-22.45.32:238][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.24-22.45.32:253][  0]LogNetVersion: tutorial 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 900602032)
-[2019.02.24-22.45.32:786][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.095086 seconds
-[2019.02.24-22.45.32:793][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.24-22.45.32:793][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.02.24-22.45.32:793][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.24-22.45.33:651][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.24-22.45.33:664][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.24-22.45.34:345][  0]SourceControl: Source control is disabled
-[2019.02.24-22.45.34:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.24-22.45.34:926][  0]LogOcInput: OculusInput pre-init called
-[2019.02.24-22.45.35:065][  0]LogEngine: Initializing Engine...
-[2019.02.24-22.45.35:066][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.24-22.45.35:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.24-22.45.35:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-22.45.35:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.24-22.45.35:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-22.45.35:315][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.24-22.45.35:331][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.24-22.45.35:338][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-22.45.36:681][  0]LogInit: FAudioDevice initialized.
-[2019.02.24-22.45.36:681][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.24-22.45.36:778][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/New Owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.24-22.45.36:781][  0]LogInit: Texture streaming: Enabled
-[2019.02.24-22.45.36:798][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.24-22.45.36:810][  0]LogInit: Transaction tracking system initialized
-[2019.02.24-22.45.36:833][  0]BlueprintLog: New page: Editor Load
-[2019.02.24-22.45.36:918][  0]LocalizationService: Localization service is disabled
-[2019.02.24-22.45.37:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/' took 0.02s
-[2019.02.24-22.45.37:386][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.24-22.45.37:386][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.24-22.45.37:386][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.24-22.45.37:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.24-22.45.37:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.24-22.45.37:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.24-22.45.37:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.24-22.45.37:516][  0]Cmd: MAP LOAD FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.24-22.45.37:516][  0]LightingResults: New page: Lighting Build
-[2019.02.24-22.45.37:519][  0]MapCheck: New page: Map Check
-[2019.02.24-22.45.37:519][  0]LightingResults: New page: Lighting Build
-[2019.02.24-22.45.37:611][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.24-22.45.37:611][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.24-22.45.37:611][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2019.02.24-22.45.37:641][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.24-22.45.37:641][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.24-22.45.37:641][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2019.02.24-22.45.37:656][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.24-22.45.37:656][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.24-22.45.37:656][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.24-22.45.37:656][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.24-22.45.37:663][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.24-22.45.37:663][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2019.02.24-22.45.37:663][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.24-22.45.37:663][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2019.02.24-22.45.37:837][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.24-22.45.37:847][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-22.45.37:872][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-22.45.37:872][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
-[2019.02.24-22.45.37:873][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.357
-[2019.02.24-22.45.37:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.45.37:991][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.45.38:002][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.45.38:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.45.38:019][  0]LogCollectionManager: Loaded 0 collections in 0.001909 seconds
-[2019.02.24-22.45.38:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Collections/' took 0.01s
-[2019.02.24-22.45.38:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Developers/NewOwner/Collections/' took 0.00s
-[2019.02.24-22.45.38:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Collections/' took 0.01s
-[2019.02.24-22.45.38:049][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.24-22.45.38:057][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2651 classes and 620 folders.
-[2019.02.24-22.45.38:064][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.24-22.45.38:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:068][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:068][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.24-22.45.38:109][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.24-22.45.38:114][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.02.24-22.45.39:430][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.24-22.45.39:452][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.24-22.45.39:454][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.24-22.45.39:460][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.24-22.45.39:600][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.tutorial
-[2019.02.24-22.45.39:601][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.02.24-22.45.39:601][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2019.02.24-22.45.39:601][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.02.24-22.45.39:601][  0]LogTemp: BranchPath = DESKTOP-QIBLB74/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-QIBLB74/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2019.02.24-22.45.39:601][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\New Owner\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.24-22.45.39:601][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-22.45.39:806][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.24-22.45.39:806][  0]LogLoad: (Engine Initialization) Total time: 11.76 seconds
-[2019.02.24-22.45.39:806][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.24-22.45.39:825][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.24-22.45.39:900][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.24-22.45.39:903][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.45.39:976][  1]LogAssetRegistry: Asset discovery search completed in 8.2210 seconds
-[2019.02.24-22.45.39:978][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.24-22.45.39:978][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
-[2019.02.24-22.45.41:005][ 42]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-22.45.41:705][ 81]LogSlate: Window 'Message Log' being destroyed
-[2019.02.24-22.45.41:708][ 81]LogSlate: Window 'Message Log' being destroyed
-[2019.02.24-22.45.43:945][215]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.24-22.45.45:060][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.45.45:310][286]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/NewGameMode.NewGameMode
-[2019.02.24-22.45.45:842][286]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
-[2019.02.24-22.45.46:709][286]LogBlueprint: Warning: [Compiler trump_Blueprint] Get Input Axis references unknown Axis '2_Left_Right' for  Get 2_Left_Right
-[2019.02.24-22.45.46:709][286]LogBlueprint: Warning: [Compiler trump_Blueprint] InputAction Event references unknown Action '2_Jump' for  InputAction 2_Jump
-[2019.02.24-22.45.46:709][286]LogBlueprint: Warning: [Compiler trump_Blueprint] Input Axis Event references unknown Axis '2_Left_Right' for  InputAxis 2_Left_Right
-[2019.02.24-22.45.46:714][286]LogBlueprint: Warning: [Compiler trump_Blueprint] [0018.67] Compile of trump_Blueprint successful, but with 3 Warning(s) [in 7 ms] (/Game/Characters/Trump/trump_Blueprint.trump_Blueprint)
-[2019.02.24-22.45.46:807][286]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Trump/trump_Blueprint.trump_Blueprint
-[2019.02.24-22.45.47:135][286]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Characters/Obama/Obama.Obama
-[2019.02.24-22.45.47:143][286]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.02.24-22.45.47:370][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-22.45.47:373][286]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2019.02.24-22.45.47:410][286]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-22.45.47:630][286]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint
-[2019.02.24-22.45.47:966][286]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint
-[2019.02.24-22.45.47:991][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-22.45.48:262][286]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-22.45.48:677][286]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.24-22.45.48:738][286]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2019.02.24-22.45.48:767][286]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-22.45.58:515][722]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Jumping.Jumping
-[2019.02.24-22.45.58:532][722]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-22.45.58:565][722]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-22.45.59:115][722]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-22.46.03:553][908]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Jumping_2_.Jumping_2_
-[2019.02.24-22.46.03:556][908]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Jumping_2_.Jumping_2_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.24-22.46.05:914][  5]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Jump_1_.Jump_1_
-[2019.02.24-22.46.05:915][  5]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Jump_1_.Jump_1_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.24-22.46.07:997][ 89]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Jump.Jump
-[2019.02.24-22.46.07:997][ 89]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Jump.Jump) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.24-22.46.24:951][842]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.24-22.46.41:674][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.46.46:731][989]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-22.46.46:748][989]LogAssetEditorManager: Opening Asset editor for World /Game/NewMap.NewMap
-[2019.02.24-22.46.46:800][989]Cmd: MAP LOAD FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.24-22.46.46:800][989]LightingResults: New page: Lighting Build
-[2019.02.24-22.46.46:801][989]LoadErrors: New page: Loading map: NewMap.umap
-[2019.02.24-22.46.46:801][989]MapCheck: New page: Map Check
-[2019.02.24-22.46.46:801][989]LightingResults: New page: Lighting Build
-[2019.02.24-22.46.46:846][989]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.24-22.46.46:925][989]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.24-22.46.46:925][989]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
-[2019.02.24-22.46.46:925][989]LogFileHelpers: Loading map 'NewMap' took 0.126
-[2019.02.24-22.46.49:183][114]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-22.46.49:208][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.46.49:208][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-22.46.49:208][114]PIE: New page: PIE session: NewMap (Feb 24, 2019, 12:46:49 PM)
-[2019.02.24-22.46.49:221][114]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-22.46.49:236][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014540s)
-[2019.02.24-22.46.49:236][114]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-22.46.49:236][114]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2019.02.24-22.46.49:236][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015621s)
-[2019.02.24-22.46.49:276][114]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-22.46.49:360][114]LogInit: FAudioDevice initialized.
-[2019.02.24-22.46.49:404][114]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-22.46.49:407][114]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-17.46.49
-[2019.02.24-22.46.49:407][114]LogWorld: Bringing up level for play took: 0.002467
-[2019.02.24-22.46.49:425][114]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.02.24-22.46.49:427][114]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.588
-[2019.02.24-22.46.49:427][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.46.59:533][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.46.59:533][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.46.59:571][717]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-22.46.59:572][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.46.59:616][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.46.59:664][718]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.02.24-22.47.06:958][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.48.11:680][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.48.11:772][500]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint2571F4824AB5304908E473A3A6C26A3A.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.48.15:569][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.48.15:645][716]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.49.20:264][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.49.20:362][ 98]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintCA93F941418B9A0B1A529798BB99946F.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-22.49.21:784][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.49.21:840][175]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-22.49.26:179][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.49.26:278][412]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-22.49.26:304][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.49.26:304][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-22.49.26:304][412]PIE: New page: PIE session: NewMap (Feb 24, 2019, 12:49:26 PM)
-[2019.02.24-22.49.26:304][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-22.49.26:318][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014216s)
-[2019.02.24-22.49.26:319][412]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-22.49.26:319][412]LogPlayLevel: PIE: World Init took: (0.000681s)
-[2019.02.24-22.49.26:319][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015134s)
-[2019.02.24-22.49.26:361][412]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-22.49.26:442][412]LogInit: FAudioDevice initialized.
-[2019.02.24-22.49.26:473][412]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-22.49.26:476][412]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-17.49.26
-[2019.02.24-22.49.26:476][412]LogWorld: Bringing up level for play took: 0.002267
-[2019.02.24-22.49.26:489][412]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.475
-[2019.02.24-22.49.26:490][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.49.34:872][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.49.34:873][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.49.34:914][907]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-22.49.34:914][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.49.34:961][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.49.35:008][908]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.02.24-22.49.37:397][  1]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.49.53:943][862]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.49.54:022][862]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint65B5E39C486DE20596FDF897BBD1A925.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.49.54:943][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.49.55:006][913]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.50.00:410][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.50.00:976][234]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-22.50.01:002][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.50.01:002][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-22.50.01:002][234]PIE: New page: PIE session: NewMap (Feb 24, 2019, 12:50:01 PM)
-[2019.02.24-22.50.01:002][234]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-22.50.01:016][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013590s)
-[2019.02.24-22.50.01:017][234]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-22.50.01:017][234]LogPlayLevel: PIE: World Init took: (0.000607s)
-[2019.02.24-22.50.01:017][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014332s)
-[2019.02.24-22.50.01:058][234]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-22.50.01:138][234]LogInit: FAudioDevice initialized.
-[2019.02.24-22.50.01:167][234]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-22.50.01:170][234]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-17.50.01
-[2019.02.24-22.50.01:171][234]LogWorld: Bringing up level for play took: 0.001973
-[2019.02.24-22.50.01:184][234]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 1.169
-[2019.02.24-22.50.01:184][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.50.15:138][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.50.15:138][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.50.15:175][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-22.50.15:175][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.50.15:218][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.50.15:264][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2019.02.24-22.50.17:342][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.51.11:430][787]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint22324375470E4135B91495904DEEB38F.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.51.12:489][841]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.51.12:515][841]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Jumping to Walking_Backwards  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-22.51.12:515][841]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Jumping to Walking_1_  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-22.51.12:712][841]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [0344.67] Compile of ObamaAnimationBlueprint successful, but with 2 Warning(s) [in 222 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
-[2019.02.24-22.51.32:417][871]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint0BAA434D45C6C7EA23B641B60B2B8318.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.51.54:864][ 42]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint3F9D5CB540066D83A242F58523CC009B.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.51.56:578][130]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.52.00:555][335]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-22.52.00:581][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.52.00:581][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-22.52.00:581][335]PIE: New page: PIE session: NewMap (Feb 24, 2019, 12:52:00 PM)
-[2019.02.24-22.52.00:582][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-22.52.00:595][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014519s)
-[2019.02.24-22.52.00:596][335]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-22.52.00:596][335]LogPlayLevel: PIE: World Init took: (0.000791s)
-[2019.02.24-22.52.00:596][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015474s)
-[2019.02.24-22.52.00:639][335]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-22.52.00:719][335]LogInit: FAudioDevice initialized.
-[2019.02.24-22.52.00:752][335]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-22.52.00:755][335]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-17.52.00
-[2019.02.24-22.52.00:755][335]LogWorld: Bringing up level for play took: 0.002030
-[2019.02.24-22.52.00:769][335]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.754
-[2019.02.24-22.52.00:769][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.52.17:238][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.52.17:239][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.52.17:275][314]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-22.52.17:275][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-22.52.17:318][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-22.52.17:364][315]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2019.02.24-22.52.21:849][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.52.42:775][623]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Crouched_Walking.Crouched_Walking
-[2019.02.24-22.52.42:776][623]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Crouched_Walking.Crouched_Walking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.24-22.52.42:791][623]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Crouched_Walking.Crouched_Walking
-[2019.02.24-22.52.42:807][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-22.52.42:840][623]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-22.52.43:368][623]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-22.52.56:632][331]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Crouching_Idle.Crouching_Idle
-[2019.02.24-22.52.56:632][331]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Crouching_Idle.Crouching_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.02.24-22.52.56:646][331]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Crouching_Idle.Crouching_Idle
-[2019.02.24-22.52.56:661][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-22.52.56:692][331]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-22.52.57:207][331]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-22.57.15:652][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.57.15:759][462]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint24D4B749417C761B69C0F2847E83B4C1.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.57.17:685][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.57.17:794][573]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.57.17:828][573]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Crouching_Idle to Crouched_Walking  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-22.57.17:828][573]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Crouched_Walking to Crouching_Idle  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-22.57.18:047][573]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [0710.00] Compile of ObamaAnimationBlueprint successful, but with 2 Warning(s) [in 253 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
-[2019.02.24-22.58.00:163][773]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.58.00:264][773]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintE81F4DB14FBBDADB9858C9B94BC72617.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.58.02:483][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.58.02:565][889]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.58.02:601][889]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Crouched_Walking to Crouching_Idle  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-22.58.02:816][889]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [0754.77] Compile of ObamaAnimationBlueprint successful, but with 1 Warning(s) [in 251 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
-[2019.02.24-22.59.19:469][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-22.59.19:577][ 15]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintA7C11C314F4591491CD099A78F088226.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-22.59.21:180][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-22.59.21:292][105]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-22.59.21:748][109]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-23.00.01:944][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.00.02:059][268]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint2530D73742F698846AB94FA230BFB053.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.00.05:602][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.00.14:753][967]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-23.00.18:425][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.00.18:537][140]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint15B019E04238BF561FBCF5AE2D753F93.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.00.19:779][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.02.18:587][499]LogEditorTransaction: Undo Delete current selection
-[2019.02.24-23.02.18:786][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.02.18:792][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.02.36:635][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.02.36:718][473]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintA35D9EAB41D2E5FF79191E9096EDA081.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.02.37:533][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.02.37:611][518]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.02.41:804][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.02.41:887][743]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-23.02.41:913][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.02.41:913][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-23.02.41:913][743]PIE: New page: PIE session: NewMap (Feb 24, 2019, 1:02:41 PM)
-[2019.02.24-23.02.41:913][743]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-23.02.41:927][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014434s)
-[2019.02.24-23.02.41:928][743]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-23.02.41:928][743]LogPlayLevel: PIE: World Init took: (0.000868s)
-[2019.02.24-23.02.41:928][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015448s)
-[2019.02.24-23.02.41:970][743]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-23.02.42:053][743]LogInit: FAudioDevice initialized.
-[2019.02.24-23.02.42:083][743]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-23.02.42:086][743]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-18.02.42
-[2019.02.24-23.02.42:087][743]LogWorld: Bringing up level for play took: 0.002464
-[2019.02.24-23.02.42:101][743]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.086
-[2019.02.24-23.02.42:101][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.03.20:925][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.03.20:926][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.03.20:967][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-23.03.20:967][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.03.21:011][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.03.21:027][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_32
-[2019.02.24-23.03.24:850][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.05.35:938][897]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.040
-[2019.02.24-23.05.35:940][897]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
-[2019.02.24-23.05.35:973][897]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
-[2019.02.24-23.05.35:973][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
-[2019.02.24-23.05.36:025][897]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto1127FE7B446E987AC30887699930F0A73.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto1.uasset'
-[2019.02.24-23.05.36:026][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Obama/ObamaAnimationBlueprint] ([1] browsable assets)...
-[2019.02.24-23.05.36:026][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/ObamaAnimationBlueprint]
-[2019.02.24-23.05.36:105][897]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint_Auto18F6FD1E14BA12B29D316F7BCF1937A17.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/ObamaAnimationBlueprint_Auto1.uasset'
-[2019.02.24-23.05.36:107][897]LogFileHelpers: Auto-saving content packages took 0.168
-[2019.02.24-23.06.31:244][475]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching.Punching
-[2019.02.24-23.06.31:260][475]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.06.31:294][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.06.31:833][475]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.06.35:954][665]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching_2_.Punching_2_
-[2019.02.24-23.06.35:973][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.06.36:004][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.06.36:532][665]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.06.39:770][809]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching_1_.Punching_1_
-[2019.02.24-23.06.39:787][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.06.39:817][809]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.06.40:347][809]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.07.42:504][136]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching_1_.Punching_1_
-[2019.02.24-23.07.42:524][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.07.42:557][136]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.07.42:934][136]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.08.30:852][679]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Punching_1_.Punching_1_
-[2019.02.24-23.08.30:871][679]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.08.30:903][679]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.08.31:292][679]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.12.40:853][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.12.40:946][415]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint9FEFFE594666B67F538E488DA7086EDE.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.12.42:785][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.15.48:509][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.063
-[2019.02.24-23.15.48:511][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
-[2019.02.24-23.15.48:532][597]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
-[2019.02.24-23.15.48:532][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
-[2019.02.24-23.15.48:589][597]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto23D53AD5F43DD39D5010F1CBF7C188049.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto2.uasset'
-[2019.02.24-23.15.48:590][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/ObamaAnimationBlueprint] ([1] browsable assets)...
-[2019.02.24-23.15.48:608][597]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint]
-[2019.02.24-23.15.48:608][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/ObamaAnimationBlueprint]
-[2019.02.24-23.15.48:707][597]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint_Auto280DC987643DD6B8F1512C4B281C6E604.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/ObamaAnimationBlueprint_Auto2.uasset'
-[2019.02.24-23.15.48:708][597]LogFileHelpers: Auto-saving content packages took 0.197
-[2019.02.24-23.15.50:943][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.16.35:288][ 77]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.16.35:325][ 77]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.16.35:326][ 77]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.16.35:326][ 77]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.16.35:326][ 77]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.16.35:326][ 77]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.16.35:521][ 77]LogBlueprint: Warning: [Compiler Obama_Blueprint] [1867.48] Compile of Obama_Blueprint failed. 5 Fatal Issue(s) 0 Warning(s) [in 233 ms] (/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint)
-[2019.02.24-23.16.45:063][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.16.45:146][567]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintA3985711464CBBF7375445BDD6BF0645.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.16.48:064][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.17.27:810][688]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.17.27:852][688]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.17.27:852][688]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.17.27:852][688]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.17.27:853][688]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.17.27:853][688]LogBlueprint: Error: [Compiler Obama_Blueprint] The property associated with  Obama Punching 2  could not be found in '/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint_C'
-[2019.02.24-23.17.28:054][688]LogBlueprint: Warning: [Compiler Obama_Blueprint] [1920.01] Compile of Obama_Blueprint failed. 5 Fatal Issue(s) 0 Warning(s) [in 243 ms] (/Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint)
-[2019.02.24-23.17.40:295][364]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-23.17.40:346][364]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Punching_2_ to Punching_1_  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-23.17.40:347][364]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Idle to Punching_1_  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-23.17.40:347][364]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] Punching_1_ to Idle  will never be taken, please connect something to  Can Enter Transition
-[2019.02.24-23.17.40:542][364]LogBlueprint: Warning: [Compiler ObamaAnimationBlueprint] [1932.50] Compile of ObamaAnimationBlueprint successful, but with 3 Warning(s) [in 247 ms] (/Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint)
-[2019.02.24-23.17.41:766][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.17.41:890][415]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintC62366F54199C5350C0AD6B5B39433EB.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.17.44:754][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.18.40:188][406]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.40:188][406]LogEditorTransaction: Undo Delete current selection
-[2019.02.24-23.18.40:438][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.40:443][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.40:554][408]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.40:554][408]LogEditorTransaction: Undo Create Pin Link
-[2019.02.24-23.18.40:769][408]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.40:774][408]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.41:367][437]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.41:367][437]LogEditorTransaction: Undo Create Pin Link
-[2019.02.24-23.18.41:572][437]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.41:578][437]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.42:002][458]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.42:002][458]LogEditorTransaction: Undo Move Node
-[2019.02.24-23.18.42:214][458]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.42:219][458]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.42:704][482]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.42:704][482]LogEditorTransaction: Undo Add Node
-[2019.02.24-23.18.42:916][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.42:921][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.43:348][503]Cmd: TRANSACTION UNDO
-[2019.02.24-23.18.43:348][503]LogEditorTransaction: Undo Delete current selection
-[2019.02.24-23.18.43:558][503]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.18.43:563][503]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.19.21:072][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.19.21:207][376]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintFF6C4231485975C6BA6D3FADAD54E3AB.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.19.22:127][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.20.36:047][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.20.36:182][117]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintB3D6972F44BD1F0A1F49B8879F8722E8.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.20.36:776][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.20.36:856][148]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-23.20.42:054][394]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.20.44:105][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.20.44:204][488]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint746FD8E245F9BE82A897B18DAA5ACA70.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.20.47:559][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.20.49:008][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.20.49:091][771]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-23.20.49:117][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.20.49:117][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-23.20.49:117][771]PIE: New page: PIE session: NewMap (Feb 24, 2019, 1:20:49 PM)
-[2019.02.24-23.20.49:117][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-23.20.49:132][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014667s)
-[2019.02.24-23.20.49:133][771]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-23.20.49:133][771]LogPlayLevel: PIE: World Init took: (0.001033s)
-[2019.02.24-23.20.49:133][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015929s)
-[2019.02.24-23.20.49:174][771]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-23.20.49:257][771]LogInit: FAudioDevice initialized.
-[2019.02.24-23.20.49:290][771]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-23.20.49:293][771]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-18.20.49
-[2019.02.24-23.20.49:293][771]LogWorld: Bringing up level for play took: 0.002153
-[2019.02.24-23.20.49:307][771]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.708
-[2019.02.24-23.20.49:307][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.21.15:012][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.21.15:012][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.21.15:051][305]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-23.21.15:051][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.21.15:096][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.21.15:144][306]LogPlayLevel: Display: Destroying online subsystem :Context_49
-[2019.02.24-23.21.16:992][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.22.02:876][601]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintD65E577D477C9A1FD9BBB1820DC9E5EB.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.22.08:298][867]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Kicking.Kicking
-[2019.02.24-23.22.08:316][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.22.08:347][867]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.22.08:813][867]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.23.19:535][266]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint4237A7E346A4615597AEB1942DA7C71D.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.23.20:108][293]BlueprintLog: New page: Compile ObamaAnimationBlueprint
-[2019.02.24-23.23.54:589][ 82]SourceControl: fatal: /Script: '/Script' is outside repository
-[2019.02.24-23.24.01:148][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.24-23.24.01:430][468]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMap386B8FBA4B3C0F627E397AA4A89C9D23.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
-[2019.02.24-23.25.24:768][538]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint690CB4864DE6073F9CB0ADA6370C3F06.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.25.25:921][597]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.25.32:405][888]BlueprintLog: New page: Compile trump_Blueprint
-[2019.02.24-23.25.32:424][888]LogBlueprint: Warning: [Compiler trump_Blueprint] Get Input Axis references unknown Axis '2_Left_Right' for  Get 2_Left_Right
-[2019.02.24-23.25.32:425][888]LogBlueprint: Warning: [Compiler trump_Blueprint] InputAction Event references unknown Action '2_Jump' for  InputAction 2_Jump
-[2019.02.24-23.25.32:425][888]LogBlueprint: Warning: [Compiler trump_Blueprint] Input Axis Event references unknown Axis '2_Left_Right' for  InputAxis 2_Left_Right
-[2019.02.24-23.25.32:646][888]LogBlueprint: Warning: [Compiler trump_Blueprint] [2404.60] Compile of trump_Blueprint successful, but with 3 Warning(s) [in 240 ms] (/Game/Characters/Trump/trump_Blueprint.trump_Blueprint)
-[2019.02.24-23.26.22:371][614]BlueprintLog: New page: Compile trump_Blueprint
-[2019.02.24-23.26.32:304][188]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-23.26.32:332][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.26.32:332][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-23.26.32:332][188]PIE: New page: PIE session: NewMap (Feb 24, 2019, 1:26:32 PM)
-[2019.02.24-23.26.32:332][188]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-23.26.32:347][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014722s)
-[2019.02.24-23.26.32:348][188]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-23.26.32:348][188]LogPlayLevel: PIE: World Init took: (0.000761s)
-[2019.02.24-23.26.32:348][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015670s)
-[2019.02.24-23.26.32:389][188]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-23.26.32:472][188]LogInit: FAudioDevice initialized.
-[2019.02.24-23.26.32:504][188]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-23.26.32:507][188]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-18.26.32
-[2019.02.24-23.26.32:507][188]LogWorld: Bringing up level for play took: 0.002156
-[2019.02.24-23.26.32:521][188]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.507
-[2019.02.24-23.26.32:521][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.26.40:337][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.26.40:337][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.26.40:373][650]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-23.26.40:373][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.26.40:415][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.26.40:462][651]LogPlayLevel: Display: Destroying online subsystem :Context_53
-[2019.02.24-23.26.49:986][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.26.53:445][204]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Kicking.Kicking
-[2019.02.24-23.26.53:465][204]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.26.53:497][204]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.02.24-23.26.53:881][204]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2019.02.24-23.27.16:825][362]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint403D4B7B42EBBB44EA0E11BBD626AEE7.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.27.17:460][394]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.27.19:201][467]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/trump_BlueprintA163752F4B681AF4FB5051839D47EC97.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Trump/trump_Blueprint.uasset'
-[2019.02.24-23.27.22:362][626]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprintEB3C42F440A8DCFAD330889D0C6971B3.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.27.24:428][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewGameMode" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Blueprints/NewGameMode.uasset" SILENT=true
-[2019.02.24-23.27.24:449][733]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewGameModeB16C82AC4F0A8AF47A45A2B9379DF740.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Blueprints/NewGameMode.uasset'
-[2019.02.24-23.27.37:548][515]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-23.27.37:576][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.27.37:576][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-23.27.37:576][515]PIE: New page: PIE session: NewMap (Feb 24, 2019, 1:27:37 PM)
-[2019.02.24-23.27.37:577][515]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-23.27.37:591][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014429s)
-[2019.02.24-23.27.37:592][515]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-23.27.37:592][515]LogPlayLevel: PIE: World Init took: (0.000561s)
-[2019.02.24-23.27.37:592][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015114s)
-[2019.02.24-23.27.37:633][515]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-23.27.37:715][515]LogInit: FAudioDevice initialized.
-[2019.02.24-23.27.37:747][515]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-23.27.37:751][515]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-18.27.37
-[2019.02.24-23.27.37:751][515]LogWorld: Bringing up level for play took: 0.002359
-[2019.02.24-23.27.37:765][515]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.249
-[2019.02.24-23.27.37:766][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.28.00:152][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.28.00:152][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.28.00:192][854]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-23.28.00:192][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.28.00:237][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.28.00:286][855]LogPlayLevel: Display: Destroying online subsystem :Context_58
-[2019.02.24-23.29.45:342][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.29.47:212][382]LogRenderer: Reallocating scene render targets to support 964x540 Format 10 NumSamples 1 (Frame:1).
-[2019.02.24-23.30.04:390][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.30.17:050][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.30.22:518][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.31.01:577][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.31.11:980][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.31.23:702][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.31.36:451][989]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.31.59:530][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.32.51:541][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.33.33:620][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.33.54:333][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.34.32:208][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.061
-[2019.02.24-23.34.32:212][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Obama/Obama_Blueprint] ([1] browsable assets)...
-[2019.02.24-23.34.32:245][212]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint]
-[2019.02.24-23.34.32:245][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Obama/Obama_Blueprint]
-[2019.02.24-23.34.32:393][212]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint_Auto3EFF1112944E6A60B69EB34AFAE5725D6.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Autosaves/Game/Characters/Obama/Obama_Blueprint_Auto3.uasset'
-[2019.02.24-23.34.32:395][212]LogFileHelpers: Auto-saving content packages took 0.185
-[2019.02.24-23.35.22:882][493]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_BlueprintA125B74B44F0B1455044639EB146D851.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.35.23:306][515]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.35.29:261][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.24-23.35.29:536][833]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMap7708DDB34A903E74A1FC56A1A335F145.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
-[2019.02.24-23.35.31:784][965]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.24-23.35.31:810][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.35.31:810][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.24-23.35.31:810][965]PIE: New page: PIE session: NewMap (Feb 24, 2019, 1:35:31 PM)
-[2019.02.24-23.35.31:810][965]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2019.02.24-23.35.31:824][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014780s)
-[2019.02.24-23.35.31:825][965]LogAIModule: Creating AISystem for world NewMap
-[2019.02.24-23.35.31:825][965]LogPlayLevel: PIE: World Init took: (0.000714s)
-[2019.02.24-23.35.31:825][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.015647s)
-[2019.02.24-23.35.31:868][965]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.24-23.35.31:949][965]LogInit: FAudioDevice initialized.
-[2019.02.24-23.35.31:981][965]LogLoad: Game class is 'NewGameMode_C'
-[2019.02.24-23.35.31:984][965]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2019.02.24-18.35.31
-[2019.02.24-23.35.31:984][965]LogWorld: Bringing up level for play took: 0.002270
-[2019.02.24-23.35.31:998][965]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.016
-[2019.02.24-23.35.31:998][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.35.53:541][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.35.53:541][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.35.53:583][250]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.24-23.35.53:583][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
-[2019.02.24-23.35.53:627][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.24-23.35.53:676][251]LogPlayLevel: Display: Destroying online subsystem :Context_59
-[2019.02.24-23.36.53:894][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.24-23.39.18:842][199]Cmd: TRANSACTION UNDO
-[2019.02.24-23.39.18:842][199]LogEditorTransaction: Undo Attach Component
-[2019.02.24-23.39.18:857][199]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Obama_Blueprint_C_0.CollisionCylinder) Component already registered.
-[2019.02.24-23.39.18:859][199]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Obama_Blueprint_C_0.CharacterMesh0) Component already registered.
-[2019.02.24-23.39.19:148][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.39.19:157][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.39.19:160][199]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.02.24-23.42.04:737][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.24-23.42.19:726][212]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/Obama_Blueprint6F3330E9429E6D9AC63828948E0CBC0A.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/Obama_Blueprint.uasset'
-[2019.02.24-23.42.20:320][240]BlueprintLog: New page: Compile Obama_Blueprint
-[2019.02.24-23.42.36:542][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.24-23.42.36:819][ 59]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMap0F1282B44A0E7E4F763C2EA5BC6D53AC.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
-[2019.02.24-23.42.43:075][258]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/ObamaAnimationBlueprint99C4AC104EA76075F875548AE09C9ACC.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/Characters/Obama/ObamaAnimationBlueprint.uasset'
-[2019.02.24-23.42.49:385][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.24-23.42.49:651][600]LogSavePackage: Moving '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Saved/NewMap7667EC67425732C93AC42AAA373925E4.tmp' to '../../../../../../Users/New Owner/Documents/GitHub/VeryPresidential/tutorial/Content/NewMap.umap'
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:448][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.26-15.38.46:448][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.26-15.38.46:449][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:449][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:472][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.26-15.38.46:472][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.26-15.38.46:473][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.26-15.38.46:474][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.26-15.38.46:475][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.26-15.38.46:475][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.26-15.38.46:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.26-15.38.46:646][  0]LogHAL: Display: Platform has ~ 8 GB [8539049984 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.26-15.38.46:646][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.26-15.38.46:646][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.26-15.38.46:646][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.26-15.38.46:647][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.26-15.38.46:648][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.26-15.38.46:649][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.26-15.38.46:650][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Scalability.ini]
+[2019.02.26-15.38.46:651][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.26-15.38.46:651][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.26-15.38.46:652][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.26-15.38.46:652][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Config/Windows/Engine.ini]
+[2019.02.26-15.38.46:653][  0]LogInit: Computer: DESKTOP-B2Q79EP
+[2019.02.26-15.38.46:653][  0]LogInit: User: veeram
+[2019.02.26-15.38.46:653][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.26-15.38.46:653][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.26-15.38.46:654][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.26-15.38.46:654][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.26-15.38.46:654][  0]LogMemory: Process Physical Memory: 102.60 MB used, 102.60 MB peak
+[2019.02.26-15.38.46:654][  0]LogMemory: Process Virtual Memory: 85.13 MB used, 85.13 MB peak
+[2019.02.26-15.38.46:654][  0]LogMemory: Physical Memory: 5134.12 MB used,  3009.35 MB free, 8143.47 MB total
+[2019.02.26-15.38.46:654][  0]LogMemory: Virtual Memory: 4633.90 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.02.26-15.38.46:715][  0]LogInit: Using OS detected language (en-US).
+[2019.02.26-15.38.46:715][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.26-15.38.46:716][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.26-15.38.47:178][  0]LogStreaming: Display: Took  0.464s to InitEngineTextLocalization.
+[2019.02.26-15.38.47:179][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.26-15.38.47:491][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.26-15.38.47:491][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.26-15.38.47:733][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.26-15.38.47:733][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.26-15.38.47:797][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.02.26-15.38.47:797][  0]LogD3D11RHI:       2016/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.26-15.38.47:800][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.26-15.38.47:800][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.26-15.38.47:800][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.26-15.38.47:810][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.26-15.38.47:810][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.26-15.38.47:810][  0]LogWindows: EnumDisplayDevices:
+[2019.02.26-15.38.47:810][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.02.26-15.38.47:810][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2019.02.26-15.38.47:811][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.02.26-15.38.47:811][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.02.26-15.38.47:811][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.26-15.38.47:811][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.02.26-15.38.47:811][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.02.26-15.38.47:811][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.02.26-15.38.47:811][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2019.02.26-15.38.47:850][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.26-15.38.47:863][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.26-15.38.48:728][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.26-15.38.48:745][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.26-15.38.48:761][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.26-15.38.48:777][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.26-15.38.48:830][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.26-15.38.48:847][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.26-15.38.48:864][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.26-15.38.48:881][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.26-15.38.48:889][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.26-15.38.49:198][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.26-15.38.49:301][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.26-15.38.49:301][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.26-15.38.49:327][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.26-15.38.49:327][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.26-15.38.49:342][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.26-15.38.49:357][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.26-15.38.49:371][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.26-15.38.49:432][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.26-15.38.49:488][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.26-15.38.49:488][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.26-15.38.49:488][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.26-15.38.49:585][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Intermediate/Shaders/WorkingDirectory/5516/).
+[2019.02.26-15.38.49:585][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/veeram/AppData/Local/Temp/UnrealShaderWorkingDir/43267A584AA48E56094B08A6D58E0262/'.
+[2019.02.26-15.38.49:590][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.26-15.38.49:590][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.26-15.38.49:590][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.26-15.38.59:558][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: Loaded boot cache 0.61s 71MB C:/Users/veeram/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/veeram/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.26-15.39.00:167][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.26-15.39.00:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.26-15.39.00:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.26-15.39.00:183][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.26-15.39.00:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/veeram/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.26-15.39.00:196][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.26-15.39.00:196][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.26-15.39.00:223][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.26-15.39.00:225][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.26-15.39.00:288][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.26-15.39.01:997][  0]LogAssetRegistry: FAssetRegistry took 0.0375 seconds to start up
+[2019.02.26-15.39.02:388][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.26-15.39.02:613][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.26-15.39.02:621][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.26-15.39.02:621][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.26-15.39.02:621][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.26-15.39.02:621][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.26-15.39.02:638][  0]LogNetVersion: tutorial 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 900602032)
+[2019.02.26-15.39.03:375][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.164241 seconds
+[2019.02.26-15.39.03:382][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.26-15.39.03:382][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.26-15.39.03:382][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.26-15.39.34:853][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.26-15.39.34:868][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.26-15.39.36:300][  0]SourceControl: Source control is disabled
+[2019.02.26-15.39.36:301][  0]SourceControl: Source control is disabled
+[2019.02.26-15.39.36:303][  0]SourceControl: Source control is disabled
+[2019.02.26-15.39.36:304][  0]SourceControl: Source control is disabled
+[2019.02.26-15.39.36:881][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.26-15.39.37:023][  0]LogOcInput: OculusInput pre-init called
+[2019.02.26-15.39.37:218][  0]LogEngine: Initializing Engine...
+[2019.02.26-15.39.37:219][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.26-15.39.37:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.26-15.39.37:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.26-15.39.37:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.26-15.39.37:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.26-15.39.37:544][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.26-15.39.37:573][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.26-15.39.37:624][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.26-15.39.37:646][  0]LogInit: FAudioDevice initialized.
+[2019.02.26-15.39.37:647][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.26-15.39.38:392][  0]LogDerivedDataCache: Saved boot cache 0.75s 71MB C:/Users/veeram/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.26-15.39.38:398][  0]LogInit: Texture streaming: Enabled
+[2019.02.26-15.39.38:431][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.26-15.39.38:862][  0]LogInit: Transaction tracking system initialized
+[2019.02.26-15.39.38:912][  0]BlueprintLog: New page: Editor Load
+[2019.02.26-15.39.39:595][  0]LocalizationService: Localization service is disabled
+[2019.02.26-15.39.40:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Content/' took 0.19s
+[2019.02.26-15.39.40:871][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.26-15.39.40:871][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.26-15.39.40:884][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.26-15.39.40:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.26-15.39.40:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.26-15.39.40:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.26-15.39.40:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.26-15.39.42:422][  0]SourceControl: Source control is disabled
+[2019.02.26-15.39.42:422][  0]Cmd: MAP LOAD FILE="../../../../../../Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.26-15.39.42:547][  0]LightingResults: New page: Lighting Build
+[2019.02.26-15.39.42:558][  0]MapCheck: New page: Map Check
+[2019.02.26-15.39.42:558][  0]LightingResults: New page: Lighting Build
+[2019.02.26-15.39.47:824][  0]LogBlueprint: Warning: [Compiler trump_Blueprint] Get Input Axis references unknown Axis '2_Left_Right' for  Get 2_Left_Right
+[2019.02.26-15.39.47:825][  0]LogBlueprint: Warning: [Compiler trump_Blueprint] InputAction Event references unknown Action '2_Jump' for  InputAction 2_Jump
+[2019.02.26-15.39.47:825][  0]LogBlueprint: Warning: [Compiler trump_Blueprint] Input Axis Event references unknown Axis '2_Left_Right' for  InputAxis 2_Left_Right
+[2019.02.26-15.39.47:831][  0]LogBlueprint: Warning: [Compiler trump_Blueprint] [0065.98] Compile of trump_Blueprint successful, but with 3 Warning(s) [in 63 ms] (/Game/Characters/Trump/trump_Blueprint.trump_Blueprint)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Hat_Normal (BC5, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Hat_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Hair_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Hair_Opacity (AutoDXT, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Hair_Normal (BC5, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Top_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump1_Top_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.51:023][  0]LogTexture: Display: Building textures: trump_Hat_BaseColor (AutoDXT, 512X512)
+[2019.02.26-15.39.51:025][  0]LogTexture: Display: Building textures: trump1_Hat_Opacity (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogTexture: Display: Building textures: trump1_Hat_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogTexture: Display: Building textures: trump1_Hair_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogTexture: Display: Building textures: trump1_Hair_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogTexture: Display: Building textures: trump1_Bottom_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogTexture: Display: Building textures: trump1_Bottom_Opacity (AutoDXT, 512X512)
+[2019.02.26-15.39.51:373][  0]LogMaterial: Display: Missing cached shader map for material Hatmat, compiling. 
+[2019.02.26-15.39.52:359][  0]LogTexture: Display: Building textures: trump1_Bottom_Normal (BC5, 512X512)
+[2019.02.26-15.39.52:359][  0]LogTexture: Display: Building textures: trump1_Bottom_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Bottom_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Body_Specular (AutoDXT, 1024X1024)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Body_Opacity (AutoDXT, 1024X1024)
+[2019.02.26-15.39.52:360][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.02.26-15.39.52:360][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.02.26-15.39.52:360][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Body_Normal (BC5, 1024X1024)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Body_Gloss (AutoDXT, 1024X1024)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: trump1_Body_Diffuse (AutoDXT, 1024X1024)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: Obama2_Top_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: Obama2_Top_Normal (BC5, 512X512)
+[2019.02.26-15.39.52:360][  0]LogTexture: Display: Building textures: Obama2_Top_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Top_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Shoes_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Shoes_Normal (BC5, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Shoes_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Shoes_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Bottom_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Bottom_Normal (BC5, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: Obama2_Bottom_Gloss (AutoDXT, 512X512)
+[2019.02.26-15.39.53:166][  0]LogTexture: Display: Building textures: trump1_Top_Normal (BC5, 512X512)
+[2019.02.26-15.39.53:223][  0]LogTexture: Display: Building textures: Obama2_Bottom_Diffuse (AutoDXT, 512X512)
+[2019.02.26-15.39.53:223][  0]LogTexture: Display: Building textures: trump1_Top_Opacity (AutoDXT, 512X512)
+[2019.02.26-15.39.53:257][  0]LogTexture: Display: Building textures: trump1_Top_Specular (AutoDXT, 512X512)
+[2019.02.26-15.39.53:273][  0]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2019.02.26-15.39.53:338][  0]LogTexture: Display: Building textures: Obama2_Body_Diffuse (AutoDXT, 1024X1024)
+[2019.02.26-15.39.53:338][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Trump/animations/injured_run_backwards.injured_run_backwards
+[2019.02.26-15.39.53:354][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Trump/animations/injured_run_backwards.injured_run_backwards) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.53:372][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Trump/animations/injured_run.injured_run
+[2019.02.26-15.39.53:372][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Trump/animations/injured_run.injured_run) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.53:377][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Trump/animations/Idle.Idle
+[2019.02.26-15.39.53:378][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Trump/animations/Idle.Idle) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.53:549][  0]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
+[2019.02.26-15.39.53:606][  0]LogSkeletalMesh: Building Skeletal Mesh trump...
+[2019.02.26-15.39.53:770][  0]LogTexture: Display: Building textures: Obama2_Body_Specular (AutoDXT, 1024X1024)
+[2019.02.26-15.39.53:770][  0]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Characters/Trump/trump.trump
+[2019.02.26-15.39.53:789][  0]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2019.02.26-15.39.53:822][  0]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2019.02.26-15.39.53:862][  0]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2019.02.26-15.39.53:900][  0]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
+[2019.02.26-15.39.54:521][  0]LogTexture: Display: Building textures: Obama2_Body_Normal (BC5, 1024X1024)
+[2019.02.26-15.39.54:521][  0]LogTexture: Display: Building textures: Obama2_Body_Gloss (AutoDXT, 1024X1024)
+[2019.02.26-15.39.54:521][  0]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2019.02.26-15.39.54:552][  0]LogSkeletalMesh: Building Skeletal Mesh Obama...
+[2019.02.26-15.39.54:638][  0]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/Characters/Obama/Obama.Obama
+[2019.02.26-15.39.54:674][  0]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2019.02.26-15.39.54:711][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Walking_Backwards.Walking_Backwards
+[2019.02.26-15.39.54:711][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Walking_Backwards.Walking_Backwards) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.54:712][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Walking_1_.Walking_1_
+[2019.02.26-15.39.54:712][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Walking_1_.Walking_1_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.54:712][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Jumping.Jumping
+[2019.02.26-15.39.54:712][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Jumping.Jumping) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.54:715][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Idle.Idle
+[2019.02.26-15.39.54:715][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Idle.Idle) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.39.54:854][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.02.26-15.39.57:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-15.39.57:576][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-15.39.57:577][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.191ms to complete.
+[2019.02.26-15.39.57:577][  0]LogFileHelpers: Loading map 'NewMap' took 15.155
+[2019.02.26-15.39.59:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.39.59:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.40.00:005][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.40.00:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.40.00:262][  0]LogCollectionManager: Loaded 0 collections in 0.003908 seconds
+[2019.02.26-15.40.00:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Saved/Collections/' took 0.01s
+[2019.02.26-15.40.00:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Content/Developers/veeram/Collections/' took 0.00s
+[2019.02.26-15.40.00:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/veeram/Documents/GitHub/VeryPresidential/VeryPresidential/tutorial/Content/Collections/' took 0.00s
+[2019.02.26-15.40.00:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.26-15.40.00:568][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2651 classes and 620 folders.
+[2019.02.26-15.40.00:728][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.26-15.40.00:902][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.01:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.01:518][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.01:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:242][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:707][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:807][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:945][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.02:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:083][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.03:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.26-15.40.06:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.26-15.40.06:187][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.26-15.40.08:337][  0]LogShaderCompilers: Display: Shaders left to compile 510
+[2019.02.26-15.40.08:337][  0]LogShaderCompilers: Display: Shaders left to compile 500
+[2019.02.26-15.40.08:337][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.26-15.40.08:340][  0]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.26-15.40.08:364][  0]LogSlate: Took 0.017869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.26-15.40.08:936][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.26-15.40.09:591][  0]LogShaderCompilers: Display: Shaders left to compile 490
+[2019.02.26-15.40.09:591][  0]LogSlate: Took 0.064233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.26-15.40.10:082][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.26-15.40.10:082][  0]LogLoad: (Engine Initialization) Total time: 88.23 seconds
+[2019.02.26-15.40.10:082][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.26-15.40.10:115][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-15.40.10:117][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.26-15.40.10:329][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.26-15.40.11:379][  2]LogShaderCompilers: Display: Shaders left to compile 480
+[2019.02.26-15.40.11:848][  3]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.26-15.40.13:460][120]LogShaderCompilers: Display: Shaders left to compile 470
+[2019.02.26-15.40.15:805][370]LogShaderCompilers: Display: Shaders left to compile 460
+[2019.02.26-15.40.16:286][371]LogShaderCompilers: Display: Shaders left to compile 450
+[2019.02.26-15.40.20:807][492]LogShaderCompilers: Display: Shaders left to compile 440
+[2019.02.26-15.40.20:807][492]LogShaderCompilers: Display: Shaders left to compile 430
+[2019.02.26-15.40.20:807][492]LogShaderCompilers: Display: Shaders left to compile 420
+[2019.02.26-15.40.20:824][492]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/NewGameMode.NewGameMode
+[2019.02.26-15.40.22:369][492]LogShaderCompilers: Display: Shaders left to compile 410
+[2019.02.26-15.40.22:369][492]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.02.26-15.40.24:563][492]LogShaderCompilers: Display: Shaders left to compile 400
+[2019.02.26-15.40.24:563][492]LogShaderCompilers: Display: Shaders left to compile 390
+[2019.02.26-15.40.25:760][492]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Trump/trump_Blueprint.trump_Blueprint
+[2019.02.26-15.40.26:146][492]LogShaderCompilers: Display: Shaders left to compile 380
+[2019.02.26-15.40.26:146][492]LogShaderCompilers: Display: Shaders left to compile 370
+[2019.02.26-15.40.26:191][492]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Characters/Obama/Obama.Obama
+[2019.02.26-15.40.26:418][492]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.02.26-15.40.27:646][492]LogShaderCompilers: Display: Shaders left to compile 360
+[2019.02.26-15.40.27:646][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.26-15.40.27:830][492]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.02.26-15.40.28:752][492]LogShaderCompilers: Display: Shaders left to compile 350
+[2019.02.26-15.40.28:752][492]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.26-15.40.29:871][492]LogShaderCompilers: Display: Shaders left to compile 340
+[2019.02.26-15.40.29:871][492]LogShaderCompilers: Display: Shaders left to compile 330
+[2019.02.26-15.40.30:228][492]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Obama/Obama_Blueprint.Obama_Blueprint
+[2019.02.26-15.40.30:620][492]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Characters/Obama/ObamaAnimationBlueprint.ObamaAnimationBlueprint
+[2019.02.26-15.40.30:903][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.26-15.40.31:318][492]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.26-15.40.31:871][492]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Obama/Animations/Kicking.Kicking
+[2019.02.26-15.40.31:871][492]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/Obama/Animations/Kicking.Kicking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.26-15.40.31:884][492]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Characters/Obama/Animations/Kicking.Kicking
+[2019.02.26-15.40.31:992][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.26-15.40.32:059][492]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.26-15.40.33:524][492]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.02.26-15.40.33:524][492]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.02.26-15.40.33:840][492]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.02.26-15.40.33:898][492]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.26-15.40.34:304][494]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.02.26-15.40.35:039][511]LogAssetRegistry: Asset discovery search completed in 93.0648 seconds
+[2019.02.26-15.40.35:054][511]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.26-15.40.35:054][511]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2019.02.26-15.40.37:593][642]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.02.26-15.40.39:227][728]LogShaderCompilers: Display: Shaders left to compile 280
+[2019.02.26-15.40.39:793][756]LogShaderCompilers: Display: Shaders left to compile 270
+[2019.02.26-15.40.44:591][983]LogShaderCompilers: Display: Shaders left to compile 260
+[2019.02.26-15.40.45:013][998]LogSlate: Took 0.033878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.26-15.40.45:850][999]LogShaderCompilers: Display: Shaders left to compile 250
+[2019.02.26-15.40.46:076][999]LogShaderCompilers: Display: Shaders left to compile 240
+[2019.02.26-15.40.46:154][999]LogSlate: Took 0.066870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.26-15.40.48:134][ 82]LogShaderCompilers: Display: Shaders left to compile 230
+[2019.02.26-15.40.50:012][166]LogShaderCompilers: Display: Shaders left to compile 220
+[2019.02.26-15.40.51:022][211]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.02.26-15.40.53:699][271]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.02.26-15.40.53:923][271]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.02.26-15.40.55:346][271]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.02.26-15.40.56:106][271]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.02.26-15.40.57:155][271]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.02.26-15.40.57:262][271]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.02.26-15.40.59:614][271]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.02.26-15.40.59:626][271]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.02.26-15.41.01:105][271]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.02.26-15.41.02:732][271]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.02.26-15.41.03:801][271]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.02.26-15.41.03:801][271]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.02.26-15.41.03:804][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-15.41.06:676][275]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.02.26-15.41.06:919][275]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.02.26-15.41.07:808][275]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.02.26-15.41.09:207][275]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.02.26-15.41.09:860][275]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.26-15.41.09:860][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-15.41.11:962][390]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.26-15.41.17:090][650]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.26-15.41.17:834][687]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.26-15.41.40:044][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-15.41.43:354][239]LogSlate: Window 'Kicking' being destroyed
+[2019.02.26-15.41.43:358][239]LogSlate: Window 'Kicking' being destroyed
+[2019.02.26-15.41.43:645][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.26-15.41.44:119][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.26-15.41.49:216][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.26-15.41.49:230][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.26-15.41.49:281][714]PIE: New page: PIE session: NewMap (Feb 26, 2019, 5:41:49 AM)
+[2019.02.26-15.41.49:339][714]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.02.26-15.41.49:453][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112995s)
+[2019.02.26-15.41.49:454][714]LogAIModule: Creating AISystem for world NewMap
+[2019.02.26-15.41.49:454][714]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2019.02.26-15.41.49:454][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.115467s)
+[2019.02.26-15.41.49:568][714]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.26-15.41.49:582][714]LogInit: FAudioDevice initialized.
+[2019.02.26-15.41.49:698][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.41.49:856][714]LogLoad: Game class is 'NewGameMode_C'
+[2019.02.26-15.41.49:861][714]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.02.26-10.41.49
+[2019.02.26-15.41.49:862][714]LogWorld: Bringing up level for play took: 0.004617
+[2019.02.26-15.41.50:142][714]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.02.26-15.41.50:286][714]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.26-15.41.50:340][714]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 2.003
+[2019.02.26-15.41.50:350][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.26-15.41.50:731][714]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.02.26-15.42.50:710][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.26-15.42.50:740][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-15.42.50:762][186]LogSlate: Window 'tutorial Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.26-15.42.50:823][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-15.42.50:824][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.02.26-15.42.50:890][187]LogPlayLevel: Display: Destroying online subsystem :Context_16
